@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Info</title>
+        {% load static %}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+    </head>
+    <body>
+        <div id="wrapper">
+            <pre>
+                <h1>Your Info</h1>
+                <h5>Name:              {{name}}</h5>
+                <h5>Location:          {{location}}</h5>
+                <h5>Favorite Language: {{language}}</h5>
+                <h5>Likes:             {{likes}}</h5>
+                <h5>Comment:           {{comment}}</h5>
+            </pre>
+        </div>
+    </body>
+</html>

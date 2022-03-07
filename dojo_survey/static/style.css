@@ -1,0 +1,30 @@
+#wrapper {
+    margin: 50px;
+    padding-left: 50px;
+    padding-top: 25px;
+    border: 3px solid blue;
+    width: 600px;
+    height: 600px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p:first-of-type input {
+    margin-left: 63px;
+}
+
+p:nth-of-type(2) select {
+    margin-left: 42px;
+}
+
+p:nth-of-type(3) label:first-of-type input {
+    margin-left: 12px;
+}
+
+p:nth-of-type(4) label:first-of-type input {
+    margin-left: 108px;
+}
